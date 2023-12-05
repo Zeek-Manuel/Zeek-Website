@@ -1,0 +1,9 @@
+
+.landing {
+    @media screen and(max-width: 769px) {
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        font-size: medium;
+    }
+}
