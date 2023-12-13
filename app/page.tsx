@@ -27,7 +27,7 @@ export default function Home(): JSX.Element {
           <div className={` text-cyan-700 text-8xl justify-center flex p-6 `}>
               Welcome To Zeek Media
           </div>
-            <div className={`${isMobile ? "container flex flex-col text-dark  p-5" : "container text-dark  p-3 gap-5 grid grid-cols-2" }`}>
+            <div className={`${isMobile ? "container flex flex-col text-dark gap-6 p-5" : "container text-dark  p-3 gap-5 grid grid-cols-2" }`}>
               <div className={` text-center text-4xl font-medium  `}>
                 <Link href='/photography'>Photography</Link>
 

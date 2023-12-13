@@ -28,10 +28,6 @@
     align-items: center;
 }
 
-.mobileNavLink:hover {
-  border-bottom: 1px solid black;
-}
-
 .mobileMenuButton {
     position: relative;
     z-index: 10;

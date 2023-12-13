@@ -56,7 +56,6 @@ const navBar = (): JSX.Element => {
                     ))
                 }
                 <Link href= '/login'
-                onClick={() => setIsVisible(isVisible ? false : true)}
                 className='btn btn-sm text-cyan-500 text-base justify-end '>Login</Link>
             </ul>
 :
@@ -100,7 +99,10 @@ const navBar = (): JSX.Element => {
                             </li>
                         ))
                     }
-                        <Link href= '/login' className='btn btn-sm text-cyan-500 text-base justify-center'>Login</Link>
+                        <Link 
+                        href= '/login'
+                        onClick={() => setIsVisible(isVisible ? false : true)}
+                        className='btn btn-sm text-cyan-500 text-base justify-center'>Login</Link>
                     </ul>
 
             }
