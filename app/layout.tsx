@@ -18,13 +18,13 @@ export default function RootLayout({
 }) {
   return (
     <html data-theme='theme-change' lang="en">
-      <body className=" ">
-          <NavBar />
-        <main>
-          {children}
-        </main>
-          <Footer />
-      </body>
+        <body className=" ">
+            <NavBar />
+          <main>
+            {children}
+          </main>
+            <Footer />
+        </body>
     </html>
   )
 }

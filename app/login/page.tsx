@@ -1,28 +1,15 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 'use client';
-import { useEffect, useState } from "react";
 
-
-
-
-
-export default function page ():JSX.Element {
-  const [isVisible, setIsVisible] = useState<boolean>(false);
-
-    useEffect(() => {
-        isVisible ? document.body.style.overflow = "hidden" : document.body.style.overflow = "auto";
-    }, [isVisible])
-
+export default function login ():JSX.Element {
   return (
     <div 
-    onClick={() => setIsVisible(isVisible ? false : true)}
     className="container max-w-full max-h-full">
       <div className=" justify-center">
-        <div className="container mx-auto h-full bg-base-200 p-20 justify-center">
+        <div className="container mx-auto h-full bg-base-200 p-20 max-md:p-8 justify-center">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <div className="text-center lg:text-left">
       <h1 className="text-5xl font-bold">Login now!</h1>
-      <p className="py-6">To access a wide range of art</p>
     </div>
     <div className=" shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
       <form className="card-body">
@@ -45,6 +32,8 @@ export default function page ():JSX.Element {
           <button className="btn  text-cyan-500">Login</button>
         </div>
       </form>
+      <p className="p-4 text-center">{"Don't have an account?"}</p>
+      <a href="/sign-up" className="btn btn-link justify-items-end w-full">Register</a>
     </div>
   </div>
 </div>

@@ -24,7 +24,7 @@ export default function Home(): JSX.Element {
 
     <div>
       <div className={`${vina_Sans.className} container mx-auto max-h-full justify-center`}>
-          <div className={` text-cyan-700 text-8xl justify-center flex p-6 `}>
+          <div className={` text-cyan-700 text-8xl justify-center flex p-6 max-md:text-6xl text-center`}>
               Welcome To Zeek Media
           </div>
             <div className={`${isMobile ? "container flex flex-col text-dark gap-6 p-5" : "container text-dark  p-3 gap-5 grid grid-cols-2" }`}>
@@ -32,14 +32,14 @@ export default function Home(): JSX.Element {
                 <Link href='/photography'>Photography</Link>
 
                   <Image
-                    src={background} alt='backdrop' className='justify-center w-full h-5/6 border-double  rounded-xl pt-2'
+                    src={background} alt='backdrop' className='justify-center w-full h-5/6 border-double  rounded-xl p-4'
                     width={500} height={500} />
               </div>
               <div className='text-center text-4xl font-medium' >
                 <Link href='/design'>Design</Link>
 
                 <Image
-                  src={background2} alt='backdrop' className='justify-center w-full h-5/6 border-double rounded-xl pt-2'
+                  src={background2} alt='backdrop' className='justify-center w-full h-5/6 border-double rounded-xl p-4'
                   width={500} height={200} />
               </div>
             </div>
