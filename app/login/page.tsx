@@ -1,9 +1,9 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-'use client';
+import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/server";
 
 export default function login ():JSX.Element {
   return (
-    <div 
+    <div
     className="container max-w-full max-h-full">
       <div className=" justify-center">
         <div className="container mx-auto h-full bg-base-200 p-20 max-md:p-8 justify-center">
@@ -29,7 +29,9 @@ export default function login ():JSX.Element {
           </label>
         </div>
         <div className="form-control mt-6">
-          <button className="btn  text-cyan-500">Login</button>
+          {/* <button className="">Login</button> */}
+          <LoginLink className="btn  text-cyan-500">Sign in</LoginLink>
+
         </div>
       </form>
       <p className="p-4 text-center">{"Don't have an account?"}</p>

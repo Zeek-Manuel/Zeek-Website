@@ -1,12 +1,8 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-'use client';
-import { useState } from "react";
+import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/server";
 
-const { setView } = useAuth();
-const [errorMsg, setErrorMsg] = useState(null);
-const [successMsg, setSuccessMsg] = useState(null);
 
- async function signUp() {
+ function signUp() {
  
   return (
     <div 
@@ -48,7 +44,8 @@ const [successMsg, setSuccessMsg] = useState(null);
           </label>
         </div>
         <div className="form-control mt-6">
-          <button className="btn  text-cyan-500">Register</button>
+          {/* <button className="">Register</button> */}
+          <RegisterLink className="btn  text-cyan-500">Sign up</RegisterLink>
         </div>
       </form>
       <p className="p-4 text-center">{"Already a User?"}</p>
@@ -64,7 +61,3 @@ const [successMsg, setSuccessMsg] = useState(null);
 
 
 export default signUp;
-
-function useAuth(): { setView: any; } {
-  throw new Error("Function not implemented.");
-}
