@@ -36,7 +36,7 @@ export default function Home(): JSX.Element {
                     width={500} height={500} />
               </div>
               <div className='text-center text-4xl font-medium' >
-                <Link href='/design'>Design</Link>
+                <Link href='/login'>Design</Link>
 
                 <Image
                   src={background2} alt='backdrop' className='justify-center w-full h-5/6 border-double rounded-xl p-4'

@@ -1,7 +1,13 @@
+/* eslint-disable react-hooks/rules-of-hooks */
+'use client';
+import { useState } from "react";
 
+const { setView } = useAuth();
+const [errorMsg, setErrorMsg] = useState(null);
+const [successMsg, setSuccessMsg] = useState(null);
 
-
-export default function signUp() {
+ async function signUp() {
+ 
   return (
     <div 
     className="container max-w-full max-h-full">
@@ -15,15 +21,9 @@ export default function signUp() {
       <form className="card-body">
         <div className="form-control">
           <label className="label">
-            <span className="label-text">First Name</span>
+            <span className="label-text">Full Name</span>
           </label>
           <input type="email" placeholder="first name" className="input input-bordered" required />
-        </div>
-        <div className="form-control">
-          <label className="label">
-            <span className="label-text">Last name</span>
-          </label>
-          <input type="email" placeholder="last name" className="input input-bordered" required />
         </div>
         <div className="form-control">
           <label className="label">
@@ -61,3 +61,10 @@ export default function signUp() {
   )
 }
 
+
+
+export default signUp;
+
+function useAuth(): { setView: any; } {
+  throw new Error("Function not implemented.");
+}
