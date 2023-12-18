@@ -55,12 +55,12 @@ const navBar = (): JSX.Element => {
                             </li>
                         ))
                     }
-                    <Link
+                    {/* <Link
                         href= '/login'
                         className='btn btn-sm text-cyan-500 text-base justify-end '
                     >
                         Login
-                    </Link>
+                    </Link> */}
                 </ul>
     :
 
