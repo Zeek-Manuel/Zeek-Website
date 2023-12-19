@@ -1,9 +1,19 @@
 
-.landing {
-    @media screen and(max-width: 769px) {
+
+.landingContainer {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 2rem;
+        padding: 1rem;
+}
+
+@media screen and(max-width: 768px) {
+        .body{
         display: flex;
         flex-direction: column;
-        /* flex-wrap: wrap; */
+        padding: 1.6rem;
+        gap: 2rem;
+        flex-wrap: wrap;
         font-size: medium;
-    }
-}
+                }
+        }
