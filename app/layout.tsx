@@ -15,7 +15,9 @@ export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
-}) {
+}) 
+
+{
   return (
     <html data-theme='theme-change' lang="en">
         <body className=" ">

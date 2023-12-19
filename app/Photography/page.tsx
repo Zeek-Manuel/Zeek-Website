@@ -25,7 +25,7 @@ export default function page() {
 
   return (
     <div className={`container mx-auto ${isMobile ? 'h-screen':'h-full'} ${vina_Sans.className}`}>
-        <h1 className={`text-4xl text-cyan-700 text-center pt-6 p-2 ${vina_Sans.className}`}>Welcome to photography page</h1>
+        <h1 className={`text-4xl text-cyan-700 text-center p-6 ${vina_Sans.className}`}>Welcome to photography page</h1>
         <h3 className='p-4 text-2xl font-semibold'>Gallery</h3>
         <p className='text-base p-2 italic text-cyan-400'>Swipe to the left</p>
         <div className="carousel rounded-box w-full">
