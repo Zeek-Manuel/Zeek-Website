@@ -2,7 +2,7 @@
 import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/server";
 
 
- function signUp() {
+ function signUp(): JSX.Element {
  
   return (
     <div 

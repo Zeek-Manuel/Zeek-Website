@@ -19,7 +19,7 @@ const vina_Sans = Vina_Sans({
 })
 
 
-export default function page() {
+export default function page(): JSX.Element {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const { isMobile } = useDetectDevice();
 
