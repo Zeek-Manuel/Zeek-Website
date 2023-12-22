@@ -9,8 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@kinde-oss/kinde-auth-nextjs": "^2.0.13",
-    "@nestjs/passport": "^10.0.3",
     "@next/font": "^14.0.3",
     "@supabase/auth-helpers-nextjs": "^0.8.7",
     "@supabase/supabase-js": "^2.39.0",
@@ -21,7 +19,6 @@
     "eslint": "8.54.0",
     "eslint-config-next": "14.0.3",
     "jquery": "^3.7.1",
-    "nestjs-supabase-auth": "^1.0.9",
     "next": "14.0.3",
     "passport": "^0.7.0",
     "passport-jwt": "^4.0.1",
@@ -32,7 +29,8 @@
     "sharp": "^0.33.1",
     "swiper": "^11.0.5",
     "tailwindcss": "3.3.5",
-    "typescript": "5.3.2"
+    "typescript": "5.3.2",
+    "webpack": "^5.89.0"
   },
   "devDependencies": {
     "@types/passport-jwt": "^3.0.13",

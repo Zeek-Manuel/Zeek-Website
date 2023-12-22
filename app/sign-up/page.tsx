@@ -1,9 +1,8 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/server";
 
 
  function signUp(): JSX.Element {
- 
+
   return (
     <div 
     className="container max-w-full max-h-full">

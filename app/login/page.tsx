@@ -1,5 +1,4 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/server";
 
 export default function login ():JSX.Element {
   return (
