@@ -45,7 +45,7 @@ import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/server";
         </div>
         <div className="form-control mt-6">
           {/* <button className="">Register</button> */}
-          <RegisterLink className="btn  text-cyan-500">Sign up</RegisterLink>
+          <a href="" className="btn  text-cyan-500">Sign up</a>
         </div>
       </form>
       <p className="p-4 text-center">{"Already a User?"}</p>
