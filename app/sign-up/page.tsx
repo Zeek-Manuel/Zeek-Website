@@ -44,7 +44,7 @@
         </div>
         <div className="form-control mt-6">
           {/* <button className="">Register</button> */}
-          <a href="" className="btn  text-cyan-500">Sign up</a>
+          <a href={`/auth/callback`} className="btn  text-cyan-500">Sign up</a>
         </div>
       </form>
       <p className="p-4 text-center">{"Already a User?"}</p>

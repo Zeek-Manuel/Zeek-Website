@@ -64,11 +64,11 @@ export default function login ():JSX.Element {
         </div>
         <div className="form-control mt-6">
           {/* <button className="">Register</button> */}
-          <a href="" className="btn  text-cyan-500">Login</a>
+          <a href="/auth/login" className="btn  text-cyan-500">Login</a>
         </div>
       </form>
       <p className="p-4 text-center">{"Don't have an account?"}</p>
-      <a href="/auth/sign-up" className="btn btn-link justify-items-end w-full">Sign Up</a>
+      <a href="/sign-up" className="btn btn-link justify-items-end w-full">Sign Up</a>
     </div>
   </div>
 </div>
