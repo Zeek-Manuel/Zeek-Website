@@ -1,11 +1,10 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/server";
 
 
- function signUp() {
- 
+ function signUp(): JSX.Element {
+
   return (
-    <div 
+    <div
     className="container max-w-full max-h-full">
       <div className=" justify-center">
         <div className="container mx-auto h-full bg-base-200 p-20 max-md:p-8 justify-center">
@@ -45,7 +44,7 @@ import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/server";
         </div>
         <div className="form-control mt-6">
           {/* <button className="">Register</button> */}
-          <RegisterLink className="btn  text-cyan-500">Sign up</RegisterLink>
+          <a href={`/auth/callback`} className="btn  text-cyan-500">Sign up</a>
         </div>
       </form>
       <p className="p-4 text-center">{"Already a User?"}</p>

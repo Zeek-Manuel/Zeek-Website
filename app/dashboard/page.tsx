@@ -2,7 +2,7 @@
 import Link from "next/link";
 
 
-export default function dashboard() {
+export default function dashboard(): JSX.Element {
   return (
     <div>
         <div className="hero min-h-screen bg-base-200">

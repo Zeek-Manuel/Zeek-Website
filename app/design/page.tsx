@@ -8,7 +8,7 @@ const vina_Sans = Vina_Sans({
 })
 
 
-export default function page() {
+export default function page(): JSX.Element {
   return (
     <div className="container mx-auto max-h-full justify-center p-4 h-100">
         <h1 className={`text-4xl  text-cyan-700 text-center ${vina_Sans.className}`}>
