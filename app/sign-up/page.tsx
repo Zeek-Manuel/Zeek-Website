@@ -4,7 +4,7 @@
  function signUp(): JSX.Element {
 
   return (
-    <div 
+    <div
     className="container max-w-full max-h-full">
       <div className=" justify-center">
         <div className="container mx-auto h-full bg-base-200 p-20 max-md:p-8 justify-center">
