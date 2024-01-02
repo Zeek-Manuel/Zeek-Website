@@ -1,6 +1,6 @@
 'use client';
 import React from 'react'
-import useDetectDevice from '../Uitlities/UseDetectDevice';
+import useDetectDevice from '../Utilities/UseDetectDevice';
 
 export default function page() {
     // eslint-disable-next-line react-hooks/rules-of-hooks

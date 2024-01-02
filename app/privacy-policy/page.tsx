@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 'use client';
 import { useEffect, useState } from "react";
-import useDetectDevice from "../Uitlities/UseDetectDevice";
+import useDetectDevice from "../Utilities/UseDetectDevice";
 
 
 type Props<S extends string, AO = object[]> = {

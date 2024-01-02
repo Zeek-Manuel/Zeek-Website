@@ -1,4 +1,4 @@
-"use-client"
+'use client'
 import { useEffect, useState } from "react";
 
 type FunctionReturnType = { isDesktop: boolean, isTablet: boolean, isMobile: boolean };

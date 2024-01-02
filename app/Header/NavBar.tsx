@@ -2,7 +2,7 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
-import useDetectDevice from '../Uitlities/UseDetectDevice';
+import useDetectDevice from '../Utilities/UseDetectDevice';
 import styles from './NavBar.module.css';
 import menu from '../../public/Icons/menu.png';
 import close from '../../public/Icons/close.png';
@@ -97,7 +97,7 @@ const navBar = (): JSX.Element => {
                                 </li>
                             ))
                         }
-                            <Link 
+                            <Link
                             href= '/login'
                             onClick={() => setIsVisible(isVisible ? false : true)}
                             className='btn btn-sm text-cyan-500 text-base justify-center'>Login</Link>
