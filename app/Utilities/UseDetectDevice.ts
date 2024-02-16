@@ -8,6 +8,12 @@ function useDetectDevice(): FunctionReturnType {
     const [windowScreenSize, setWindowScreenSize] = useState<number>(window.innerWidth);
 
 
+    useEffect(() => {
+        if (typeof window !== "undefined") {
+            setWindowScreenSize(window.innerWidth);
+        }
+    }, []);
+
     function SetResolution() {
         setWindowScreenSize(window.innerWidth);
     }

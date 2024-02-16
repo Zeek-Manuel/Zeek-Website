@@ -1,10 +1,6 @@
 'use client'
 import React, { useState } from 'react';
 import { Vina_Sans } from 'next/font/google';
-import Image from 'next/image';
-import background from '../public/images/backdrop.png';
-import styles from './page.module.css';
-import Link from 'next/link';
 
 
 
@@ -18,25 +14,15 @@ const vina_Sans = Vina_Sans({
 export default function Home(): JSX.Element {
   return (
 
-    <><div>
-      <div className={`${vina_Sans.className} container max-w-full h-full justify-center`}>
-              <h1 className=' container justify-center max-w-full text-6xl text-cyan-600 flex p-6 '>Welcome to ZeeK Media</h1>
-        <div className="hero">
-          <Image src={background} alt="Background" objectFit='cover' />
-          <div className="hero-overlay bg-opacity-60"></div>
-            <div className="flex flex-col p-2">
-              <p className=" text-white text-4xl p-2">EXPLORE.
-              </p>
-            <button className="btn btn-primary justify-start text-2xl">Get Started</button>
-            </div>
+    <div>
+      <div className={`flex items-center justify-center h-screen bg-cover bg-fixed custom-img `}>
+        <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/70 z-[2]"></div>
+        <div className=" z-[2] p-10 sm:z-[2] justify-center items-center">
+          <div className={`${vina_Sans}flex max-w-full text-7xl font-bold text-white`}>Welcome to ZeeK Media</div>
+          <p className=" text-white  text-2xl pb-5 pt-5">YOUR HUB FOR ALL WONDERFUL DESIGNS.</p>
+          <button className="btn text-cyan text-2xl hover:text-cyan-400 active:text-white-900'">Get Started</button>
         </div>
-
       </div>
-    </div><div className='container max-w-full max-h-full bg-black/5 text-base font-medium p-5 text-dark'>
-        <div className='container mx-auto '>
-
-        </div>
-
-      </div></>
+    </div>
   )
 }

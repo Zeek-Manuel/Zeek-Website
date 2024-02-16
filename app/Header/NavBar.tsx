@@ -35,16 +35,16 @@ const navBar = (): JSX.Element => {
     ];
 
     return (
-        <section className='container max-w-full  p-6 relative'>
-            <nav className={` container max-w-full text-dark text-base p-2 font-medium fixed top-0 left-0 right-0 glass`}>
+        <section className='container max-w-full  p-6 relative z-20'>
+            <nav className={` container max-w-full text-white text-base p-2 font-medium fixed top-0 left-0 right-0 glass`}>
                 {
                     !isMobile ?
                 <ul className={`desktopNav flex gap-16 justify-center  p-2 items-center `}>
-                    <Link  className='hover:text-cyan-600 active:text-cyan-700' href={'/'}>Home</Link>
+                    <Link  className='hover:text-cyan-400 active:text-cyan-900' href={'/'}>Home</Link>
                     {
                         navLinks.map((navLink: object, id: number) => (
                             <li
-                                className='hover:text-cyan-600 active:text-cyan-700'
+                                className='hover:text-cyan-400 active:text-cyan-900'
                                 key={id}
                             >
                                     <Link
