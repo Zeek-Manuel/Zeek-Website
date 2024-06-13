@@ -3,5 +3,6 @@
         "nextjs",
         "supabase",
         "swiper"
-    ]
+    ],
+    "CodeGPT.apiKey": "CodeGPT Plus Beta"
 }

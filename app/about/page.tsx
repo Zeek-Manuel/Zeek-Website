@@ -7,7 +7,7 @@ export default function page() {
     const { isMobile } = useDetectDevice();
 
   return (
-    <div className={`container mx-auto  flex flex-col  p-4 ${isMobile? 'h-full': 'h-screen'}`}>
+    <div className={`container mx-auto  flex flex-col  p-8 ${isMobile? 'h-full': 'h-screen'}`}>
       <h1 className='p-4 justify-center text-center text-4xl text-dark text-cyan-600'>ABOUT ZEEK MEDIA</h1>
       <p className='text-center p-2 space-x-3 text-base'>
         {

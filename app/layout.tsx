@@ -19,7 +19,7 @@ export default function RootLayout({
 
 {
   return (
-    <html data-theme='theme-change' lang="en">
+    <html lang="en">
         <body className=" ">
             <NavBar />
           <main>

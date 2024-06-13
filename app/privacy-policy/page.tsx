@@ -26,11 +26,6 @@ export default function page(): JSX.Element {
 
     const [currentPageID, setCurrentPageID] = useState<string | null>(null);
 
-    // useEffect(() => {
-    //     setCurrentPageID(pageId.split("%20").join(" ").split("#")[1]);
-    // }, [currentPageID, pageId, pathname]);
-
-
     const [data] = useState<Props<string>>({
         caption: "Privacy Policy",
         detailsCaption: {
@@ -88,7 +83,7 @@ export default function page(): JSX.Element {
         ]
     });
     return (
-        <><div className="container flex flex-col mx-auto h-full p-4">
+        <><div className="container flex flex-col mx-auto h-full p-12">
             <div
                 className=" justify-center text-4xl text-cyan-500 pb-4 "
             >
