@@ -2,14 +2,6 @@
 import React, { useState } from 'react';
 import { Vina_Sans } from 'next/font/google';
 import Image from 'next/image';
-import photo from '../public/images/cloth gye 3.jpg';
-import photo2 from '../public/images/cloth gye 4.jpg';
-import photo3 from '../public/images/bobiture2 copy.jpg';
-import photo4 from '../public/images/mirba01.jpg';
-import photo5 from '../public/images/Zeek Graphics.jpg';
-import photo6 from '../public/images/softinz cover alt 2 copy.jpg';
-import photo7 from '../public/images/Odo Yewu ladies.jpg';
-import photo8 from '../public/images/P copy.jpg';
 import { Button } from '@/components/ui/button';
 import { CarouselSize } from './components/ui/Carousel';
 import { HeroParallax } from './components/ui/HeroParallax';
